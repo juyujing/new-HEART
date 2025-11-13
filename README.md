@@ -1,4 +1,4 @@
-# HEART: Pre-training and Fine-tuning on EHR Data
+# Reconstruction of [HEART](https://www.sciencedirect.com/science/article/pii/S153204642400159X)
 
 This repository contains the implementation for pre-training and fine-tuning the **HEART** model on the **MIMIC-III** and **eICU** clinical datasets.
 
