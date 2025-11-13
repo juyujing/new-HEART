@@ -26,7 +26,7 @@ This repository contains the implementation for pre-training and fine-tuning the
 Clone the repository:
 
 ```bash
-git clone https://github.com/yujingju/new-HEART.git
+git clone https://github.com/juyujing/new-HEART.git
 cd new-HEART
 ```
 
