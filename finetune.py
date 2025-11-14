@@ -1,5 +1,4 @@
 import os
-import copy
 import wandb
 import random
 import pickle
@@ -7,8 +6,6 @@ import logging
 import argparse
 import numpy as np
 from tqdm import tqdm
-from copy import deepcopy
-from collections import defaultdict
 from sklearn.metrics import roc_auc_score, auc, precision_recall_curve
 
 import torch
