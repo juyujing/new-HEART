@@ -26,7 +26,6 @@ def set_random_seed(seed):
 from utils.token_utils import EHRTokenizer
 from utils.dataset_utils import HBERTFinetuneEHRDataset, batcher
 from models.HBERT import HBERT_Finetune
-# from heart.utils.metric_utils import eval_precisionk, eval_recallk, eval_ndcgk
 
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
