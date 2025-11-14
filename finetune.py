@@ -12,7 +12,6 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 
-# from heart.utils import set_random_seed
 def set_random_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
