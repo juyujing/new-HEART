@@ -19,6 +19,7 @@ This repository contains the implementation for pre-training and fine-tuning the
   - `transformer_rel.py`: implementation of the transformer with heterogeneous relations  
   - `transformer.py`: implementation of the transformer  
 - `utils/`: utility functions including data loading pipeline
+
 ## 1. Setup and Installation
 
 ### 1.1 Environment Setup
@@ -57,11 +58,10 @@ You must obtain access and download the raw datasets from their official sources
 - **MIMIC-III:** https://mimic.mit.edu/docs/iii/  
 - **eICU:** https://eicu-crd.mit.edu/about/eicu/
 
-Place the downloaded `.csv.gz` files into:
-
+Place the downloaded .csv.gz files into their respective raw data folders:
 ```bash
-dataset/MIMIC-III.ipynb
-dataset/eICU.ipynb
+dataset/MIMIC-III-raw/
+dataset/eICU-raw/
 ```
 
 ---
